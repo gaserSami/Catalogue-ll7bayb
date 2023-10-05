@@ -14,17 +14,21 @@ body {
   justify-content: center;
 }
 nav {
+  width: 66%;
   display: inline-flex;
   flex-direction: row;
   padding: 10px;
-  margin-top: 10%;
   margin-bottom: 30%;
+  justify-content: center;
 }
 nav ul {
+  width: 66%;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 10px;
+  flex-wrap: wrap;
 }
 .heading {
   display: block;
@@ -32,7 +36,7 @@ nav ul {
   text-align: center;
   flex-direction: column;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 h1,
 h2 {
