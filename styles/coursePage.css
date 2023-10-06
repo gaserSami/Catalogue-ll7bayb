@@ -99,14 +99,39 @@ hr {
   color: black;
   font-weight: bold;
   font-size: 0.8em;
-  background-color: #2ea043;
+  background-color: #a0982e;
   padding: 10px 40px;
   color: white;
   cursor: pointer;
-
   transition: all 0.3s;
+}
+
+.courseContentSection ul li a.verfied {
+  background-color: #2ea043;
 }
 
 .courseContentSection ul li a:hover {
   background-color: #494949;
+}
+
+.sidemsg {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  background-color: white;
+  opacity: 0.7;
+  width: 30%;
+  height: 20%;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.sidemsg h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
 }
